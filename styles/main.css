@@ -32,7 +32,7 @@ button, summary {
 	cursor: pointer;
 }
 
-.social-media li, nav li, .public-keys li {
+nav li, .horizontal-li li {
 	display: inline;
 }
 
