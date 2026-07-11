@@ -34,7 +34,7 @@ button, summary {
 	cursor: pointer;
 }
 
-nav > ul > li, .horizontal-li li {
+nav>ul>li, .horizontal-li li {
 	display: inline;
 }
 
