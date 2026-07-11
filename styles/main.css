@@ -70,16 +70,16 @@ li {
 	line-height: 1.6;
 }
 
-/* Dropdown menu */
+/* Dropdown */
 
-.dropdown-menu {
+.dropdown {
 	cursor: default;
 	position: relative;
 	display: inline-block;
 	text-decoration: underline;
 }
 
-.dropdown-menu ul {
+.dropdown ul {
 	background-color: var(--background-colour);
 	border: var(--border);
 	border-radius: var(--border-radius);
@@ -88,7 +88,7 @@ li {
 	width: 100%;
 }
 
-.dropdown-menu:hover ul {
+.dropdown:hover ul {
 	display: block;
 }
 
