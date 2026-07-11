@@ -7,7 +7,7 @@
 	--background-colour: #0a0a0a;
 	--text-colour: #76b8df;
 	--border: 2px solid var(--text-colour);
-	--border-radius: 0.1em;
+	--border-radius: 0.15em;
 }
 
 ::selection {
