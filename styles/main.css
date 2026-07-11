@@ -73,6 +73,7 @@ li {
 /* Dropdown menu */
 
 .dropdown-menu {
+	cursor: default;
 	position: relative;
 	display: inline-block;
 	text-decoration: underline;
