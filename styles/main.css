@@ -43,6 +43,7 @@ a:hover, a:focus-visible, .dropdown:hover {
 	background: linear-gradient(#e1d48b, #e4cf82);
 	color: transparent;
 	background-clip: text;
+	text-decoration: none;
 }
 
 /* Individual selectors */
@@ -116,10 +117,6 @@ button:hover, button:focus-visible {
 }
 
 /* Links */
-
-a:hover, a:focus-visible {
-	text-decoration: none;
-}
 
 a:visited {
 	color: #ea71f6;
