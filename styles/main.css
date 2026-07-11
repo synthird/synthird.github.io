@@ -6,6 +6,7 @@
 :root {
 	--background-colour: #0a0a0a;
 	--text-colour: #76b8df;
+	--border: 2px solid var(--text-colour);
 }
 
 ::selection {
@@ -32,7 +33,7 @@ button, summary {
 	cursor: pointer;
 }
 
-nav li, .horizontal-li li {
+nav > ul > li, .horizontal-li li {
 	display: inline;
 }
 
@@ -68,11 +69,31 @@ li {
 	line-height: 1.6;
 }
 
+/* Dropdown menu */
+
+.dropdown-menu {
+	position: relative;
+	display: inline-block;
+	text-decoration: underline;
+}
+
+.dropdown-menu ul {
+	background-color: var(--background-colour);
+	border: var(--border);
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+
+.dropdown-menu:hover ul {
+	display: block;
+}
+
 /* Buttons */
 
 button {
 	background-color: transparent;
-	border: 2px solid var(--text-colour);
+	border: var(--border);
 	color: var(--text-colour);
 	margin: 0.14em auto;
 	padding: 0.15em;
