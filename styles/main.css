@@ -7,6 +7,7 @@
 	--background-colour: #0a0a0a;
 	--text-colour: #76b8df;
 	--border: 2px solid var(--text-colour);
+	--border-radius: 0.1em;
 }
 
 ::selection {
@@ -80,6 +81,7 @@ li {
 .dropdown-menu ul {
 	background-color: var(--background-colour);
 	border: var(--border);
+	border-radius: var(--border-radius);
 	display: none;
 	position: absolute;
 	width: 100%;
@@ -97,7 +99,7 @@ button {
 	color: var(--text-colour);
 	margin: 0.14em auto;
 	padding: 0.15em;
-	border-radius: 0.1em;
+	border-radius: var(--border-radius);
 }
 
 button:hover, button:focus-visible {
