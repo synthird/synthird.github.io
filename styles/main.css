@@ -123,6 +123,8 @@ a:visited {
 }
 
 /* Hide specific elements if JavaScript is disabled */
-[id="expand-collpase-all"] {
-	display: none;
+@media (scripting: none) {
+	[id="expand-collpase-all"] {
+		display: none;
+	}
 }
