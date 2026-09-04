@@ -26,10 +26,6 @@ body, button {
 	font-size: 2.41rem;
 }
 
-h1, h2 {
-	font-weight: 500;
-}
-
 button, summary {
 	cursor: pointer;
 }
