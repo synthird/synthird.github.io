@@ -50,10 +50,6 @@ body {
 	background: var(--background-colour);
 }
 
-header {
-	text-align: center;
-}
-
 /* h1 & h2 margins */
 
 h1 {
