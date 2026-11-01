@@ -111,15 +111,15 @@ button:hover, button:focus-visible {
 
 /* Links */
 
+a:visited {
+	color: #ea71f6;
+}
+
 /* Text gradient code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
 a:hover, a:focus-visible {
 	background: linear-gradient(#e1d48b, #e4cf82);
 	color: transparent;
 	background-clip: text;
-}
-
-a:visited {
-	color: #ea71f6;
 }
 
 /* Hide specific elements if JavaScript is disabled */
