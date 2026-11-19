@@ -1,6 +1,6 @@
 :root {
-	--background-colour: #0a0a0a;
-	--text-colour: #76b8df;
+	--background-colour: rgb(10, 10, 10);
+	--text-colour: rgb(118, 184, 223);
 	--border: 2px solid var(--text-colour);
 }
 
@@ -112,12 +112,12 @@ button:hover, button:focus-visible {
 /* Links */
 
 a:visited {
-	color: #ea71f6;
+	color: rgb(234, 113, 246);
 }
 
 /* Text gradient code found in https://stackoverflow.com/questions/8384751/css-text-gradient */
 a:hover, a:focus-visible {
-	background: linear-gradient(#e1d48b, #e4cf82);
+	background: linear-gradient(rgb(225, 212, 139), rgb(228, 207, 130));
 	color: transparent;
 	background-clip: text;
 }
