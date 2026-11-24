@@ -28,13 +28,8 @@ nav>ul>li, .social-media li {
 	display: inline;
 }
 
-a:hover, a:focus-visible, .dropdown:hover {
+a:hover, a:focus-visible {
 	text-decoration: none;
-}
-
-/* Border elements */
-button, .dropdown ul {
-	border: var(--border);
 }
 
 /* Individual selectors */
@@ -69,26 +64,6 @@ li {
 	line-height: 1.6;
 }
 
-/* Dropdown */
-
-.dropdown {
-	cursor: default;
-	position: relative;
-	display: inline-block;
-	text-decoration: underline;
-}
-
-.dropdown ul {
-	background-color: var(--background-colour);
-	display: none;
-	position: absolute;
-	width: 100%;
-}
-
-.dropdown:hover ul {
-	display: block;
-}
-
 /* Details dropdown */
 
 details {
@@ -100,6 +75,7 @@ details {
 button {
 	background-color: transparent;
 	color: var(--text-colour);
+	border: var(--border);
 	margin: 0.14em auto;
 	padding: 0.15em;
 }
